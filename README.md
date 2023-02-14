@@ -7,9 +7,9 @@ binary to shellcode formatter
 # usage
 ```
 [options]
--a: shellfmt.py -a "0d0f0900f0" // load from argument
--c: shellfmt.py -c              // load from console
--f: shellfmt.py -f [filename]   // load from file
+-a: shellfmt.py -a "0d0f0900f0"   // load from argument
+-c: shellfmt.py -c                // load from console
+-f: shellfmt.py -f dir/filename   // load from file
 ```
 # setup
 ```
