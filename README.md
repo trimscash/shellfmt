@@ -14,6 +14,7 @@ binary to shellcode formatter
 ```
 # setup
 ```
-cd ~
+cd $HOME
 git clone git@github.com:trimscash/shellfmt.git
+export PATH=$PATH:$HOME/shellfmt
 ```
