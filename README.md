@@ -2,8 +2,7 @@
 binary to shellcode formatter
 
 # example
-![image](https://user-images.githubusercontent.com/42578480/218702540-4071d6de-6b6c-4374-a425-49cb7b22b1ee.png)
-
+![image](https://user-images.githubusercontent.com/42578480/218708138-6d232a3b-665a-460d-a380-7c7a86714cd5.png)
 
 # usage
 ```
@@ -16,5 +15,8 @@ binary to shellcode formatter
 ```
 cd $HOME
 git clone git@github.com:trimscash/shellfmt.git
-export PATH=$PATH:$HOME/shellfmt
+echo "export PATH=$PATH:$HOME/shellfmt" >> ~/.zshrc
 ```
+Replace `.zshrc` with the one you are using
+
+
