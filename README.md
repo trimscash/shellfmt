@@ -13,8 +13,7 @@ binary to shellcode formatter
 ```
 # setup
 ```
-cd $HOME
-git clone git@github.com:trimscash/shellfmt.git
+git clone git@github.com:trimscash/shellfmt.git ~
 echo "export PATH=$PATH:$HOME/shellfmt" >> ~/.zshrc
 ```
 Replace `.zshrc` with the one you are using
