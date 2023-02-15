@@ -1,5 +1,5 @@
 # shellfmt
-binary to shellcode formatter
+hex to shellcode formatter
 
 # example
 ![image](https://user-images.githubusercontent.com/42578480/218708138-6d232a3b-665a-460d-a380-7c7a86714cd5.png)
