@@ -31,17 +31,17 @@ def fileMode():
         print("file not found")
 def parse(str):
     hexString = re.sub('[^A-Fa-f0-9]', '', str)
-    cParse(hexString)
+    stringParse(hexString)
     print("")
-    asmParse(hexString)
+    arrayParse(hexString)
 
-def cParse(str):
+def stringParse(str):
     a = nSplit(str, 2)
     parsed = '\\x'.join(a)
     print("\\x"+parsed)
     return
 
-def asmParse(str):
+def arrayParse(str):
     a = nSplit(str, 2)
     parsed = ', 0x'.join(a)
     print("0x"+parsed)
