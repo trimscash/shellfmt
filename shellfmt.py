@@ -11,12 +11,10 @@ def argMode():
     parse(str)
     return
 
-
 def consoleMode():
     str = input()
     parse(str)
     return
-
 
 def fileMode():
     if (len(sys.argv) != 3):
@@ -29,11 +27,14 @@ def fileMode():
             parse(str)
     except:
         print("file not found")
+    return
+
 def parse(str):
     hexString = re.sub('[^A-Fa-f0-9]', '', str)
     stringParse(hexString)
     print("")
     arrayParse(hexString)
+    return
 
 def stringParse(str):
     a = nSplit(str, 2)
