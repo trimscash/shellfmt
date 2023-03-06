@@ -14,7 +14,8 @@ hex to shellcode formatter
 # setup
 ```
 git clone git@github.com:trimscash/shellfmt.git ~
-echo "export PATH=$PATH:$HOME/shellfmt" >> ~/.zshrc
+echo "export PATH=\$PATH:\$HOME/shellfmt" >> ~/.zshrc
+source ~/.zshrc
 ```
 Replace `.zshrc` with the one you are using
 
